@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root{
 
     --bs-primary:#0d6efd;
@@ -8,4 +9,18 @@
     --bs-danger:#dc3545;
     --bs-light:#f8f9fa;
     --bs-dark:#212529;
+=======
+.carousel-image{
+    width: 1500px;
+    height: 700px;
+}
+.container{
+    background-color: red;
+}
+.card-little{
+    width: 40%;
+}
+.clear-both{
+    clear: both;
+>>>>>>> 88c8e7d61ef7b403735ae8e68db1d0e3fa073fed
 }
