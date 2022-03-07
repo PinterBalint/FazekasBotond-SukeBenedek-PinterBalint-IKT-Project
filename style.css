@@ -96,3 +96,8 @@ body{
 .kajakepek{
     border-radius: 12px;
 }
+
+.piakepek{
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
