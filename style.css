@@ -1,15 +1,27 @@
+:root{
+
+    --bs-primary:#041562;
+    --bs-secondary:#11468F;
+    --bs-success:#EEEEEE;
+    --bs-info:#0dcaf0;
+    --bs-warning:#ffc107;
+    --bs-danger:#11468F;
+    --bs-light:#EEEEEE;
+    --bs-dark:#292929;
+}
+
 .carousel-image{
     width: 1500px;
     height: 700px;
+}
+.container{
+    background-color: #646464;
 }
 .card-little{
     width: 40%;
 }
 .clear-both{
     clear: both;
-}
-.row{
-    
 }
 .modal {
   display: none;
@@ -70,4 +82,8 @@
 }
 .d-none{
     display: none;
+}
+body{
+    color: #f8f9fa;
+    background-image: url('Képek/hattér.png');
 }
