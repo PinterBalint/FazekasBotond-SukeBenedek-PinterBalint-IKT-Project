@@ -87,3 +87,13 @@ body{
     color: #f8f9fa;
     background-image: url('Képek/hattér.png');
 }
+
+@media screen and (max-width: 600px) {
+    .container { 
+        width: 100%;
+
+    }
+    .card-little{
+        width: 80% !important; 
+    }
+}
