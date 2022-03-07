@@ -27,3 +27,12 @@ body{
     color: #f8f9fa;
     background-image: url('Képek/hattér.png');
 }
+
+.navbar{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.kajakepek{
+    border-radius: 12px;
+}
