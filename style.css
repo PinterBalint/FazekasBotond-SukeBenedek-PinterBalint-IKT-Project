@@ -2,3 +2,12 @@
     width: 1500px;
     height: 700px;
 }
+.container{
+    background-color: red;
+}
+.card-little{
+    width: 40%;
+}
+.clear-both{
+    clear: both;
+}
