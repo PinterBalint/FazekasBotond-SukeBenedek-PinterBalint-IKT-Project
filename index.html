@@ -27,43 +27,53 @@
                 <img src="Képek/bX81DzUCXqTKLl-xCMQ1TPebGdszSBCgKLkTaUgs5Kc.png" class="d-block w-100 carousel-image" alt="Törökország etnikai térképe">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Elöző</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Következő</span>
             </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Előzö</span>
+            </button>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Főoldal</a>
+            <a class="navbar-brand  text-light" href="#">Menü</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
+                <span class="nav-link active  text-light">Főoldal</span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="gasztronomia.html">Gasztronómia</a>
+                  <a class="nav-link  text-light" href="gasztronomia.html">Gasztronómia</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Állatvilág</a>
+                  <a class="nav-link  text-light" href="#">Állatvilág</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Kultúra</a>
+                  <a class="nav-link  text-light" href="foldrajz.html">Földrajz</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-light" href="">Kultúra</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-light" href="">Gazdaság</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-light" href="történelem.html">Történelem</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Történelem
+                  <a class="nav-link dropdown-toggle  text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Ókor</a></li>
-                    <li><a class="dropdown-item" href="#">Középkor</a></li>
-                    <li><a class="dropdown-item" href="#">Újkor</a></li>
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
               </ul>
@@ -73,45 +83,41 @@
         <div class="row">
           <div class="col-12 col-lg-3">
             <div class="card" style="width: 18rem;">
-              <img id="img" onclick="OpenImageModal('Képek/Turkey_regions_map.svg.png')" src="Képek/Turkey_regions_map.svg.png" class="card-img-top" alt="Törökország özigazgatási térképe">
+              <img id="img" onclick="OpenImageModal('Képek/Turkey_regions_map.svg.png', 'Törökország közigazgatási térképe')" src="Képek/Turkey_regions_map.svg.png" class="card-img-top" alt="Törökország közigazgatási térképe">
               <div class="card-body">
-                <p class="card-text">
+                <p class="card-text text-justify">
                   Törökország (törökül Türkiye Cumhuriyeti,) állam, amelynek területe kisebbik részben Európában, nagyobbik részben Ázsia nyugati részén fekszik. A Fekete-tenger és a Földközi-tenger között elhelyezkedő Anatóliai-félsziget alkotja az ország fő területét. Északról Grúzia és Örményország, keletről Irán és egy kis részen az Azerbajdzsánhoz tartozó Nahicseván, délről Irak és Szíria, míg nyugatról az Égei-tenger szigetei, Görögország és Bulgária határolja.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-3">
             <div class="card" style="width: 18rem;">
-              <img id="img" onclick="OpenImageModal('Képek/culture.png')" src="Képek/culture.png" class="card-img-top" alt="Törökország kultúrális térképe">
+              <img id="img" onclick="OpenImageModal('Képek/culture.png', 'Törökország kultúrális térképe')" src="Képek/culture.png" class="card-img-top" alt="Törökország kultúrális térképe">
               <div class="card-body">
-                <p class="card-text">
+                <p class="card-text text-justify">
                   Törökország kultúrája az ország különleges, európai-ázsiai fekvésének és történelmének köszönhetően igen változatos, ötvözi a keleti és a nyugati tradíciókat. Földrajzi fekvésének köszönhetően az ország mind politikailag, mind gazdaságilag fontos stratégiai pontnak számít.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-3">
             <div class="card" style="width: 18rem;">
-              <img id="img" onclick="OpenImageModal('Képek/Mustafa_Kemal_Ataturk.png')" src="Képek/Mustafa_Kemal_Ataturk.png" class="card-img-top" alt="Mustafa Kemal Atatürk a Török Köztársaság megalapítója és első elnöke">
+              <img id="img" onclick="OpenImageModal('Képek/Mustafa_Kemal_Ataturk.png', 'Mustafa Kemal Atatürk a Török Köztársaság megalapítója és első elnöke')" src="Képek/Mustafa_Kemal_Ataturk.png" class="card-img-top ataturk" alt="Mustafa Kemal Atatürk a Török Köztársaság megalapítója és első elnöke">
               <div class="card-body">
-                <p class="card-text">
+                <p class="card-text text-justify">
                   Törökország demokratikus, szekuláris, az alkotmánya szerint magát nemzetállamként meghatározó ország, de élnek más kisebbségek is az ország területén. 1923. október 29. óta köztársaság. Politikai rendszerének alapjai Mustafa Kemal Atatürk irányítása alatt az 1920-as és 30-as években szilárdultak meg, az Oszmán Birodalom felbomlása, illetve az első világháború után.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-3">
             <div class="card" style="width: 18rem;">
-              <img id="img" onclick="OpenImageModal('Képek/Turkic_Languages_distribution_map.png')" src="Képek/Turkic_Languages_distribution_map.png" class="card-img-top" alt="Török nyelvek elterjedése" >
+              <img id="img" onclick="OpenImageModal('Képek/Turkic_Languages_distribution_map.png', 'Török nyelvek elterjedése')" src="Képek/Turkic_Languages_distribution_map.png" class="card-img-top" alt="Török nyelvek elterjedése" >
               <div class="card-body">
-                <p class="card-text">
-                  A Törökország szó alapját képező török melléknév/főnév valószínűleg a göktürk vagy köktürk („törökök gyökere”) népcsoport türük szavából származik (i. sz. 8. század), mellyel magukat nevezték. A szó talán a tatárjárás környékén kerülhetett át a magyar nyelvbe, majd az ü hang nyíltabbá vált.[13] A türük szó a török nyelvbe türk formában öröklődött tovább. A türk szó régi jelentése „erős”. A Törökországot jelölő Türkiye összetétel -iye ragja arab eredetű; jelentése: „tulajdonos” vagy „valamihez kapcsolódó”. A legtöbb nyelvbe a középkori latin Turchia alakból került át, i. sz. 1369 körül. A Törökország (Türkiye) nevet hivatalosan az 1921-ben készült első török alkotmányban rögzítették először. A köztársaság kikiáltása után az 1924-es alkotmányban is megerősítették.
+                <p class="card-text text-justify">
+                  A Törökország szó alapját képező török melléknév/főnév valószínűleg a göktürk vagy köktürk („törökök gyökere”) népcsoport türük szavából származik (i. sz. 8. század), mellyel magukat nevezték. A szó talán a tatárjárás környékén kerülhetett át a magyar nyelvbe, majd az ü hang nyíltabbá vált. A türük szó a török nyelvbe türk formában öröklődött tovább. A türk szó régi jelentése „erős”. A Törökországot jelölő Türkiye összetétel -iye ragja arab eredetű; jelentése: „tulajdonos” vagy „valamihez kapcsolódó”. A legtöbb nyelvbe a középkori latin Turchia alakból került át, i. sz. 1369 körül. A Törökország (Türkiye) nevet hivatalosan az 1921-ben készült első török alkotmányban rögzítették először. A köztársaság kikiáltása után az 1924-es alkotmányban is megerősítették.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -125,7 +131,7 @@
     </div>
 
 
-
+    <script src="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
     <script src="site.js"></script>
 </body>
 </html>
