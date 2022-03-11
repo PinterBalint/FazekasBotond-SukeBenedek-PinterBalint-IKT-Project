@@ -1,9 +1,9 @@
-function OpenImageModal(imagePath) {
+function OpenImageModal(imagePath, imagealt) {
     document.getElementById('modalimg').src = imagePath;
     document.getElementById('myModal').style.display = 'block';
     document.querySelector(".navbar").classList.remove("sticky-top");
     document.querySelector(".navbar").classList.add("d-none");
-    document.getElementById("caption").innerHTML = imagePath.alt
+    document.getElementById("caption").innerHTML = imagealt;
 }
 
 function closeImageModal() {

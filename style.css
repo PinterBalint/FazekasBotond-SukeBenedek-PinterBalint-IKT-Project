@@ -24,6 +24,23 @@
 .clear-both{
     clear: both;
 }
+.card-text{
+    color: black;
+}
+.card-img-top{
+    height: 250px;
+    width: 285px;
+}
+img{
+    background-color: #646464;
+}
+.ataturk{
+    height: 400px;
+    width: 285px;
+}
+.text-justify{
+    text-align: justify;
+}
 .modal {
   display: none;
   position: fixed;
