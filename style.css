@@ -15,9 +15,6 @@
     width: 1500px;
     height: 700px;
 }
-.container{
-    /* background-color: #646464; add meg bootstrap osztályba! */
-}
 .card-little{
     width: 40%;
 }
@@ -27,7 +24,7 @@
 .card-text{
     color: black;
 }
-.card-img-top{
+.card-img-top-index{
     height: 250px;
     width: 285px;
 }
