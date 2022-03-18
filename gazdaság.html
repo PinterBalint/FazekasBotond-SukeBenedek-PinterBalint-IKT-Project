@@ -40,17 +40,6 @@
                   <li class="nav-item">
                     <span class="nav-link active  text-light">Történelem</span>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle  text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -84,12 +73,16 @@
                                 </p>
 
               </div>
-              <div class="col-12">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+              <div class="col-lg-3 col-12">
+                <img class="right-side-image mt-7" onclick="OpenImageModal('Képek/törökmezo.jpg','Törökország mezőgazdasági térképe')" src="Képek/törökmezo.jpg" alt="Törökország mezőgazdasági térképe">
+                <img class="right-side-image mt-7 mb-5" onclick="OpenImageModal('Képek/törökipar.png','Törökország iparizált területeinek a térképe')" src="Képek/törökipar.png" alt="Törökország iparizált területeinek a térképe">
+                <img class="right-side-image mt-5 mb-5" onclick="OpenImageModal('Képek/hagiasophia.jpg','A Hagia Sophia Isztambulban')" src="Képek/hagiasophia.jpg" alt="A Hagia Sophia Isztambulban">
+                <img class="right-side-image" onclick="OpenImageModal('Képek/törökkeres.png','Törökország export- és import- kapcsolata az Európai Únióval')" src="Képek/törökkeres.png" alt="Törökország export- és import- kapcsolata az Európai Únióval">
+              </div>
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeImageModal()">&times;</span>
+                <img class="modal-content" id="modalimg">
+                <div id="caption"></div>
               </div>
           </div>
     </div>
