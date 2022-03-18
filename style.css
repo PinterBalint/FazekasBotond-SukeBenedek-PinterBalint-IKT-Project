@@ -34,9 +34,6 @@
     height: 250px;
     width: 285px;
 }
-img{
-    background-color: #646464;
-}
 .ataturk{
     height: 400px;
     width: 285px;
@@ -165,7 +162,8 @@ body{
 }
 
 .kajakepek{
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 .piakepek{
