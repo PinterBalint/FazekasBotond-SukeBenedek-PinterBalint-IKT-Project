@@ -162,3 +162,6 @@ body{
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
+.min-width{
+    min-width: 224px;
+}
