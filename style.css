@@ -8,7 +8,15 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
 }
-
+.text-indent{
+    text-indent: 50px;
+}
+.text-indent-title{
+    text-indent: 10px;
+}
+.text-indent-title2{
+    text-indent: 25px;
+}
 .carousel-image{
     width: 1500px;
     height: 700px;
