@@ -1,11 +1,9 @@
 :root{
   --bs-primary-rgb: 12,52,132;
-  --bs-secondary-rgb: 44,44,44;
   --bs-success-rgb: 23,174,172;
   --bs-info-rgb: 20,100,180;
   --bs-warning-rgb: 212,44,44;
-  --bs-danger-rgb: 172,12,20;
-  --bs-light-rgb: 122, 122, 122;
+  --bs-danger-rgb: 256,52,76;
   --bs-dark-rgb: 28,28,28;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
