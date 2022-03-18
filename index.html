@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container bg-secondary">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -36,7 +36,7 @@
               <span class="visually-hidden">Előzö</span>
             </button>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
           <div class="container-fluid">
             <a class="navbar-brand  text-light" href="#">Menü</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,30 +51,19 @@
                   <a class="nav-link  text-light" href="gasztronomia.html">Gasztronómia</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  text-light" href="#">Állatvilág</a>
+                  <a class="nav-link  text-light" href="allatvilag.html">Állatvilág</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link  text-light" href="foldrajz.html">Földrajz</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  text-light" href="">Kultúra</a>
+                  <a class="nav-link  text-light" href="kultura.html">Kultúra</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  text-light" href="">Gazdaság</a>
+                  <a class="nav-link  text-light" href="gazdaság.html">Gazdaság</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link  text-light" href="történelem.html">Történelem</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle  text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
                 </li>
               </ul>
             </div>
@@ -85,7 +74,7 @@
             <div class="card" style="width: 18rem;">
               <img id="img" onclick="OpenImageModal('Képek/Turkey_regions_map.svg.png', 'Törökország közigazgatási térképe')" src="Képek/Turkey_regions_map.svg.png" class="card-img-top-index" alt="Törökország közigazgatási térképe">
               <div class="card-body">
-                <p class="card-text text-justify">
+                <p class="card-text text-justify text-indent">
                   Törökország (törökül Türkiye Cumhuriyeti,) állam, amelynek területe kisebbik részben Európában, nagyobbik részben Ázsia nyugati részén fekszik. A Fekete-tenger és a Földközi-tenger között elhelyezkedő Anatóliai-félsziget alkotja az ország fő területét. Északról Grúzia és Örményország, keletről Irán és egy kis részen az Azerbajdzsánhoz tartozó Nahicseván, délről Irak és Szíria, míg nyugatról az Égei-tenger szigetei, Görögország és Bulgária határolja.
                 </p>
               </div>
@@ -95,7 +84,7 @@
             <div class="card" style="width: 18rem;">
               <img id="img" onclick="OpenImageModal('Képek/culture.png', 'Törökország kultúrális térképe')" src="Képek/culture.png" class="card-img-top-index" alt="Törökország kultúrális térképe">
               <div class="card-body">
-                <p class="card-text text-justify">
+                <p class="card-text text-justify text-indent">
                   Törökország kultúrája az ország különleges, európai-ázsiai fekvésének és történelmének köszönhetően igen változatos, ötvözi a keleti és a nyugati tradíciókat. Földrajzi fekvésének köszönhetően az ország mind politikailag, mind gazdaságilag fontos stratégiai pontnak számít.
                 </p>
               </div>
@@ -105,7 +94,7 @@
             <div class="card" style="width: 18rem;">
               <img id="img" onclick="OpenImageModal('Képek/Mustafa_Kemal_Ataturk.png', 'Mustafa Kemal Atatürk a Török Köztársaság megalapítója és első elnöke')" src="Képek/Mustafa_Kemal_Ataturk.png" class="card-img-top-index ataturk" alt="Mustafa Kemal Atatürk a Török Köztársaság megalapítója és első elnöke">
               <div class="card-body">
-                <p class="card-text text-justify">
+                <p class="card-text text-justify text-indent">
                   Törökország demokratikus, szekuláris, az alkotmánya szerint magát nemzetállamként meghatározó ország, de élnek más kisebbségek is az ország területén. 1923. október 29. óta köztársaság. Politikai rendszerének alapjai Mustafa Kemal Atatürk irányítása alatt az 1920-as és 30-as években szilárdultak meg, az Oszmán Birodalom felbomlása, illetve az első világháború után.
                 </p>
               </div>
@@ -115,7 +104,7 @@
             <div class="card" style="width: 18rem;">
               <img id="img" onclick="OpenImageModal('Képek/Turkic_Languages_distribution_map.png', 'Török nyelvek elterjedése')" src="Képek/Turkic_Languages_distribution_map.png" class="card-img-top-index" alt="Török nyelvek elterjedése" >
               <div class="card-body">
-                <p class="card-text text-justify">
+                <p class="card-text text-justify text-indent">
                   A Törökország szó alapját képező török melléknév/főnév valószínűleg a göktürk vagy köktürk („törökök gyökere”) népcsoport türük szavából származik (i. sz. 8. század), mellyel magukat nevezték. A szó talán a tatárjárás környékén kerülhetett át a magyar nyelvbe, majd az ü hang nyíltabbá vált. A türük szó a török nyelvbe türk formában öröklődött tovább. A türk szó régi jelentése „erős”. A Törökországot jelölő Türkiye összetétel -iye ragja arab eredetű; jelentése: „tulajdonos” vagy „valamihez kapcsolódó”. A legtöbb nyelvbe a középkori latin Turchia alakból került át, i. sz. 1369 körül. A Törökország (Türkiye) nevet hivatalosan az 1921-ben készült első török alkotmányban rögzítették először. A köztársaság kikiáltása után az 1924-es alkotmányban is megerősítették.
                 </p>
               </div>
