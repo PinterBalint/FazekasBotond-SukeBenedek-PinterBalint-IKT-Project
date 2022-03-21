@@ -98,9 +98,9 @@
     text-align: justify;
 }
 .video-border{
-    background: #333; 
+    background: rgb(0, 0, 0); 
     padding: 9px;
-    border: 12px outset #e0e0e0;
+    border: 12px outset #363535;
 }
 .modal {
   display: none;
