@@ -1,12 +1,24 @@
 :root{
   --bs-primary-rgb: 12,52,132;
+
   --bs-success-rgb: 23,174,172;
+
   --bs-info-rgb: 20,100,180;
-  --bs-warning-rgb: 212,44,44;
-  --bs-danger-rgb: 256,52,76;
-  --bs-dark-rgb: 28,28,28;
+
+  --bs-secondary-rgb: 105, 105, 105;
+    /* szürke */
+  --bs-warning-rgb: 207, 41, 29;
+   /* világos piros */
+  --bs-danger-rgb: 181, 7, 23;
+    /* vörös */
+    --bs-light-rgb: 236, 236, 236;
+    /* világos dzürke */
+  --bs-dark-rgb: 29, 29, 29;
+    /* nagyon sötét szürke */
   --bs-white-rgb: 255, 255, 255;
+  /* fehér */
   --bs-black-rgb: 0, 0, 0;
+  /* fekete */
 }
 .text-indent{
     text-indent: 50px;
