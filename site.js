@@ -18,6 +18,10 @@ var modal = document.querySelector('.modal')
 
 window.addEventListener('keydown', function (event) {
   if (event.key === 'Escape') {
-    modal.style.display = 'none'
+    document.getElementById('myModal').style.display = 'none';
+    document.querySelector(".navbar").classList.add("sticky-top");
+    document.querySelector(".navbar").classList.remove("d-none");
+    document.querySelector('.carousel-indicators').classList.remove('d-none');
+    document.querySelector('.carousel-indicators').classList.add('d-flex');
   }
 })
