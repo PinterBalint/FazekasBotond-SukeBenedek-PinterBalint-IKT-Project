@@ -14,4 +14,3 @@ function closeImageModal() {
     document.querySelector('.carousel-indicators').classList.remove('d-none');
     document.querySelector('.carousel-indicators').classList.add('d-flex');
 }
-
