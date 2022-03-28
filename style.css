@@ -162,6 +162,10 @@
 .d-none{
     display: none;
 }
+.card-img-top{
+    height: 250px;
+    width: 285px;
+}
 body{
     color: #f8f9fa;
     background-image: url('Képek/hatter2.jpg');
