@@ -166,6 +166,25 @@
     height: 250px;
     width: 285px;
 }
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    opacity: 60%;
+    border-radius: 100%;
+    background-color: rgb( 179, 28, 0);
+    cursor: pointer;
+}
+
+.back-to-top:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.back-to-top:not(:hover){
+    opacity: 60%;
+    transition: 0.5s;
+}
 body{
     color: #f8f9fa;
     background-image: url('Képek/hatter2.jpg');
