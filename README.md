@@ -1,1 +1,2 @@
-# FazekasBotond-SukeBenedek-PinterBalint-IKT-Project
+FazekasBotond-SukeBenedek-PinterBalint-IKT-Project
+Türkiye
