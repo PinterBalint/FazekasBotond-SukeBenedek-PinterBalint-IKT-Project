@@ -14,3 +14,10 @@ function closeImageModal() {
     document.querySelector('.carousel-indicators').classList.remove('d-none');
     document.querySelector('.carousel-indicators').classList.add('d-flex');
 }
+var modal = document.querySelector('.modal')
+
+window.addEventListener('keydown', function (event) {
+  if (event.key === 'Escape') {
+    modal.style.display = 'none'
+  }
+})
